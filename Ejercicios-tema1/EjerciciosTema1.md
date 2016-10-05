@@ -8,22 +8,23 @@ El equipo elegido para la realización del ejercicio es el **HP ProLiant BL460c 
 El precio que tiene es de 2120€ y su precio sin iva es de 1752€, con este último calcularemos las amortizaciones.
 
 Amortización para 4 años, cada año se le aplica un 25%:
-
--Primer año: 1752*0.25= 438€
--Segundo año: 1752*0.25= 438€
--Tercer año año: 1752*0.25= 438€
--Cuarto año: 1752*0.25= 438€
-
+<ul>
+<li>Primer año: 1752*0.25= 438€</li>
+<li>Segundo año: 1752*0.25= 438€</li>
+<li>Tercer año año: 1752*0.25= 438€</li>
+<li>Cuarto año: 1752*0.25= 438€</li>
+</ul>
 En caso de la amortización en 7 años se toma un gasto descendente:
 
--Primer año: 1752*0.25= 438€
--Segundo año: 1752*0.20= 350.4€
--Tercer año año: 1752*0.15= 262.8€
--Cuarto año: 1752*0.15= 262.8€
--Quinto año: 1752*0.10= 175.2€
--Sexto año: 1752*0.10= 175.2€
--Septimo año: 1752*0.05= 87.2€
-
+<ul>
+<li>Primer año: 1752*0.25= 438€</li>
+<li>Segundo año: 1752*0.20= 350.4€</li>
+<li>Tercer año año: 1752*0.15= 262.8€</li>
+<li>Cuarto año: 1752*0.15= 262.8€</li>
+<li>Quinto año: 1752*0.10= 175.2€</li>
+<li>Sexto año: 1752*0.10= 175.2€</li>
+<li>Septimo año: 1752*0.05= 87.2€</li>
+</ul>
 
 ### Ejercicio 2:
 **Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.**
