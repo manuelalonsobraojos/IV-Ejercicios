@@ -41,7 +41,7 @@ En el caso de azure el precio variará segun el uso que le demos:
 -Si lo usamos un 1% el precio a pagar será de 1.13€ al mes
 -Si lo usamos un 10% el precio a pagar será de 11.29€ al mes
 
-Por lo que llegamos a la conclusión que en ambos casos es más rentable pagar el de Azure
+Por lo que llegamos a la conclusión que en ambos casos es más rentable pagar el de Azure.
 
 
 ### Ejercicio 3:
@@ -62,7 +62,7 @@ Para ejecutarlo accederemos a la subcarpeta **/iv/cde-package/cde-root/home/usua
 
 El modelo de mi procesador es el **Intel(R) Core(TM) i5-3230M**
 
-Al ejecutar el comando **egrep '^flags.*(vmx|svm)' /proc/cpuinfo** no me devuelve nada, por lo que no tiene dichos flags
+Al ejecutar el comando **egrep '^flags.*(vmx|svm)' /proc/cpuinfo** no me devuelve nada, por lo que no tiene dichos flags.
 
 
 ### Ejercicio 5:
