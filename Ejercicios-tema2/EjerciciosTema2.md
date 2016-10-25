@@ -1,4 +1,4 @@
-# Ejercicios Tema 1
+# Ejercicios Tema 2
 
 ### Ejercicio 1:
 **Instalar alguno de los entornos virtuales de node.js (o de cualquier otro lenguaje con el que se esté familiarizado) y, con ellos, instalar la última versión existente, la versión minor más actual de la 4.x y lo mismo para la 0.11 o alguna impar (de desarrollo).**
@@ -39,7 +39,7 @@ Una vez accedido a la url anterior podremos visualizar la app como en la siguien
 ### Ejercicio 3:
 **Ejecutar el programa en diferentes versiones del lenguaje. ¿Funciona en todas ellas?**
 
-Al ejecutar con la version 2.7 de python la app se ejecuta correctamente, sin embargo al intentar ejecutar con la versión 3 de python nos muestra un mensaje de error como el que vemos en la imagen acontinuación, producido porque la versión de Django utilizada no soporta python3.
+Al ejecutar con la version 2.7 de python la app se ejecuta correctamente, sin embargo al intentar ejecutar con la versión 3 de python nos muestra un mensaje de error como el que vemos en la imagen a continuación, producido porque la versión de Django utilizada no soporta python3.
 
 ![img](https://github.com/manuelalonsobraojos/IV-Ejercicios/blob/master/Ejercicios-tema2/capturas/captura3.png)
 
