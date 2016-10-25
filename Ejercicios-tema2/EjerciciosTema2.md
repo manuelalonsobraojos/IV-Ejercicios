@@ -48,7 +48,7 @@ Al ejecutar con la version 2.7 de python la app se ejecuta correctamente, sin em
 
 Para el caso de Django, pip (PyPI) es la herramienta equivalente, utilizando los setup.py para los archivos de configuración. Un primer setup.py para la aplicación podría ser del siguiente modo:
 
-'''python
+```
 from setuptools import setup
 
 setup(name='Empresas',
@@ -97,7 +97,7 @@ Una vez ejecutado ya tendremos nuestra documentación.
 **Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga (vamos, lo que viene siendo TDD).**
 
 El primer test que realizaremos es la creación de una empresa, para ello escribiremos el siguiente código:
-'''python
+```
 from django.test import TestCase
 
 from empresas.models import Empresas
