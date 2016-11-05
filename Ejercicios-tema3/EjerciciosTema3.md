@@ -6,16 +6,16 @@
 Para darse de alta en **Heroku** deberemos de irnos a su página oficial [Heroku](https://www.heroku.com).  
 Una vez en la página accederemos al formulario de registro y lo rellenaremos con nuestros datos.
 
-![img](captura2)
+![img](https://github.com/manuelalonsobraojos/IV-Ejercicios/blob/master/Ejercicios-tema3/capturas/Captura2.PNG)
 
 Una vez rellenado el formulario haremos clic en el botón de crear cuenta y nos pedirá que accedamos al correo electrónico para confirmar el registro.
 Una vez hemos accedido al correo, accederemos al enlace de confirmación y nos pedirá que ingresemos una contraseña. Una vez aceptada la contrasela nos dará la bienvenida al servicio Heroku.
 
-![img](captura1)
+![img](https://github.com/manuelalonsobraojos/IV-Ejercicios/blob/master/Ejercicios-tema3/capturas/Captura1.PNG)
 
 Una vez acabado el proceso de registro ya podremos utilizar el servicio Heroku.
 
-![img](captura3)
+![img](https://github.com/manuelalonsobraojos/IV-Ejercicios/blob/master/Ejercicios-tema3/capturas/Captura3.PNG)
 
 
 ### Ejercicio 2:
@@ -23,19 +23,19 @@ Una vez acabado el proceso de registro ya podremos utilizar el servicio Heroku.
 Accederemos a [OpenShift](https://www.openshift.com) y nos daremos de alta logueandonos con nuestra cuenta de github. Deberemos autorizar que OpenShift acceda a los datos de nuestra cuenta de github.
 Una vez hemos accedido crearemos una nueva aplicación, en nuestro caso crearemos una app en python con Django seleccionandolo del catálogo que nos ofrece.
 
-![img](captura4)
+![img](https://github.com/manuelalonsobraojos/IV-Ejercicios/blob/master/Ejercicios-tema3/capturas/Captura4.PNG)
 
 Una vez seleccionado deberemos de introducir el nombre de la app y un repositorio de github.
 
-![img](captura5)
+![img](https://github.com/manuelalonsobraojos/IV-Ejercicios/blob/master/Ejercicios-tema3/capturas/Captura5.PNG)
 
 Una vez introducido nuestra app se construira y se desplegará automáticamente
 
-![img](captura6)
+![img](https://github.com/manuelalonsobraojos/IV-Ejercicios/blob/master/Ejercicios-tema3/capturas/Captura6.PNG)
 
 En la siguiente imagen podemos ver como la app está funcionando.
 
-![img](captura7)
+![img](https://github.com/manuelalonsobraojos/IV-Ejercicios/blob/master/Ejercicios-tema3/capturas/Captura7.PNG)
 
 
 ### Ejercicio 3:
@@ -124,7 +124,7 @@ Con este archivo hacemos dos comprobaciones, la primera comprueba que se carga l
 
 Para desplegarlo en Heroku crearemos un proyecto y lo sincronizaremos con el repositorio de github donde se encuentre la aplicación, una vez lo tengamos sincronizado habilitaremos la opción de despliegue automático con la que cada vez que hagamos un push a nuestro repositorio de github, automáticamente se desplegará en Heroku.
 
-![img](captura8)
+![img](https://github.com/manuelalonsobraojos/IV-Ejercicios/blob/master/Ejercicios-tema3/capturas/Captura8.PNG)
 
 
 ### Ejercicio 7:
@@ -132,7 +132,7 @@ Para desplegarlo en Heroku crearemos un proyecto y lo sincronizaremos con el rep
 
 En el ejercicio anterior ya hemos visto como configurar el despliegue automático, asi que para este ejercicio lo unico que nos queda es configurar que espere a que la aplicación pase primero los test con travis.ci. Para ello debemos marcar la casilla que vemos en la siguiente imagen.
 
-![img](captura9)
+![img](https://github.com/manuelalonsobraojos/IV-Ejercicios/blob/master/Ejercicios-tema3/capturas/Captura9.PNG)
 
 
 ### Ejercicio 8:
@@ -142,8 +142,7 @@ El PaaS elegido para desplegar la aplicación básica en Flask ha sido Heroku, p
 
 - El archivo Procfile que no tiene ninguna extensión y que contendrá la orden para ejecutar la aplicación. En este caso para ejecutar la aplicación básica en Flask, el archivo Procfile contendrá esta línea: ```web: python ejercicio3.py 0.0.0.0:5000```
 
-- El archivo runtime.txt, en este archivo le especificaremos la versión de python con la que debe desplegar la aplicación.
-```python-2.7.12```
+- El archivo runtime.txt, en este archivo le especificaremos la versión de python con la que debe desplegar la aplicación, en nuestro caso python-2.7.12.
 
 En los siguientes enlaces podemos ver e repositorio de la aplicación, y la aplicación desplegada en Heroku.
 - [Repositorio de la aplicación](https://github.com/manuelalonsobraojos/AppHeroku)
