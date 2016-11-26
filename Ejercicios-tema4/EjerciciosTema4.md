@@ -89,7 +89,7 @@ Para crear un usuario propio primero entraremos a nuestro contenedor con el sigu
 ```
 docker run -t -i ubuntu /bin/bash
 ```
-Una vez dentro ejecutamos la orden ```adduser manuel``` con la que añadiremos un nuevo usuario, una vez hecho esto tan solo nos queda instalar nginx que lo intalaremos con la orden ```sudo apt-get install nginx```.
+Una vez dentro ejecutamos la orden ```adduser manuel``` con la que añadiremos un nuevo usuario, una vez hecho esto tan solo nos queda instalar nginx, que lo intalaremos con la orden ```sudo apt-get install nginx```.
 
 
 ### Ejercicio 10:
